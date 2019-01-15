@@ -1,8 +1,9 @@
+//Author Uday Dikshit
+//Version 1.2.13
+//Purpose To merge two sorted arrays into a sorted array.
 import java.util.Scanner;
- 
-public class MergeArrays {
- 
-    public static void main(String[] args) {
+ public class MergeArrays {
+ public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter size of A: ");
         int lengthOfA = scanner.nextInt();

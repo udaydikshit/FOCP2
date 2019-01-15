@@ -1,20 +1,18 @@
+//Author Uday Dikshit
+//Version 1.221
+//Purpose To create a 2 D array using input from user
 import java.util.Scanner;
 public class que2DArray
 {
    public static void main(String args[])
    {
-	   // initialize here.
        int row, col, i, j;
        int arr[][] = new int[10][10];
        Scanner scan = new Scanner(System.in);
-	   
-       // enter row and column for array.
        System.out.print("Enter row for the array (max 10) : ");
        row = scan.nextInt();
        System.out.print("Enter column for the array (max 10) : ");
        col = scan.nextInt();
-	   
-       // enter array elements.
        System.out.println("Enter " +(row*col)+ " Array Elements : ");
        for(i=0; i<row; i++)
        {
@@ -23,7 +21,6 @@ public class que2DArray
                arr[i][j] = scan.nextInt();
            }
        }
-	     // the 2D array is here.
        System.out.print("The Array is :\n");
        for(i=0; i<row; i++)
        {
