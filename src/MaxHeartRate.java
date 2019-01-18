@@ -1,5 +1,3 @@
-//Author Uday Dikshit
-//Version 1.12.1
 import java.util.*;
 class Heartrate{
 	String FirstName()
@@ -77,6 +75,7 @@ public double rate()
 	System.out.print("/");
 	System.out.print(Year);
 	System.out.print("    ");
+	//System.out.print(maxheartrate);
 	System.out.print(Age);
 	System.out.print("    ");
 	System.out.print(rate);

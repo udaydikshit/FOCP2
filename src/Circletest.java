@@ -1,7 +1,7 @@
 import java.util.*;
 class Circle
 {
-	int r ;
+	private int r ;
 	Circle()
 	{
 		this.r=1;
@@ -11,7 +11,7 @@ class Circle
 		this.r=radius;
 	}
 	double area()
-	{
+	{ 
 		double area;
 		area = 3.14 * r* r;
 		return area;
@@ -32,8 +32,9 @@ class Circletest
 {
 	public static void main (String args[]) 
 	{
-		int r = 1;
-		Circle c1 = new Circle(r);
+		//int r = 1;
+		Circle c1 = new Circle();
+		c1.r=1;
 		c1.display(c1.area(),c1.circumference());
 			}
 }
@@ -41,3 +42,4 @@ class Circletest
 	
 	
 
+ 
