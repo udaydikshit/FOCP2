@@ -1,3 +1,7 @@
+//Author Uday Dikshit
+//Version 2.03
+//Purpose 1.	Define a class Box with the following instance variables: width, height and depth, all of type float. Create a new class BoxWeigth that extends Box to include weight as an instance variable. Write an application that tests the functionalities of both these classes.
+
 import java.util.*;
 class box
 {   Scanner input = new Scanner(System.in);
