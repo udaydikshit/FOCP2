@@ -1,6 +1,6 @@
 import java.io.*;
 import java.util.*;
-class Qualification
+class Qualification extends Student
 {
 	String qualName;
     String university;

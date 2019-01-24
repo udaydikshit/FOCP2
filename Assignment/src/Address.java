@@ -1,6 +1,6 @@
 import java.io.*;
 import java.util.*;
-class Address
+class Address extends Student
 { 
    String line1;
    String line2;

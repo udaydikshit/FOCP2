@@ -1,6 +1,6 @@
 import java.io.*;
 import java.util.*;
-class Project
+class Project extends Student
 {
   String name;
   String role;

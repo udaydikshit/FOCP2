@@ -7,6 +7,14 @@ class StudentDriver
                String firstName, lastName,eMail,contactNo,line1,line2, city, state,qualName , university , institute,name, role,skills ;
                int pinCode, startDate, endDate , dateofBirth ; 
                 float cgpa;
+                this.firstName= firstName;
+        this.lastName=lastName;
+        this.eMail=eMail;
+        this.contactNo=contactNo;
+        this.addr = new Address(line1,line2,city,state,pinCode);
+        this.qual=new Qualification(qualName, university , institute, cgpa);
+        this.pr=new Project(name, role);
+        this.dob= new Date( startDate,endDate , dateofBirth);
 
             Scanner input = new Scanner(System.in);
              System.out.println("Enter the no. of students whose data is to be entered" );
@@ -15,10 +23,10 @@ class StudentDriver
               System.out.println("Enter the serial no."); 
               i = input.nextInt();
        
-             System.out.println("The personal details of the student " + i + " is:");
-             Student s = new Student(firstName,lastName, eMail,contactNo,line1, line2, city, state, pinCode, qualName,  university , institute, cgpa,name, role, startDate, endDate , dateofBirth);
-
-             System.out.println("The first name is:");
+             //System.out.println("The personal details of the student " + i + " is:");
+             //Student s = new Student(firstName,lastName, eMail, contactNo,line1, line2, city, state, pinCode, qualName,  university , institute, cgpa,name, role, startDate, endDate , dateofBirth);
+              Student s = new Student(firstName, lastName, eMail, contactNo, line1, line2, city, state, pinCode, qualName,  university , institute, cgpa, name, role, startDate, endDate , dateofBirth);
+           System.out.println("The first name is:");
          	 firstName = input.next();
          	 s.setFN(firstName);
          	 System.out.println("The last name is:"); 	

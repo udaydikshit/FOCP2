@@ -1,6 +1,6 @@
 import java.io.*;
 import java.util.*;
-class Date
+class Date extends Student
  {
     int startDate;
     int endDate;
