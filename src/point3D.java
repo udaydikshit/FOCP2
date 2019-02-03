@@ -1,3 +1,11 @@
+//Author Uday Dikshit
+//Version 2.03
+//Purpose Definition of Done:
+//a)	The class definitions are defined as per the class diagram.
+//b)	Each class definition is stored in its own .java file.
+//c)	Base class constructors are invoked using super keyword
+//d)	Function overriding is applied to define inherited function toString
+
 import java.util.*;
 class point3D extends point2D
 {
@@ -5,7 +13,7 @@ class point3D extends point2D
 	Scanner input = new Scanner(System.in);
 	point3D()
 	{
-	float z= 0.0f;
+	float z;
 	}
 	/*point3D(point3D d1)
 	{
@@ -25,10 +33,12 @@ class point3D extends point2D
 	}
 	float getz()
 	{
+		System.out.println(z);
 	return z;
 	}
 	public String toString()
     {
+    	System.out.println( x+""+y+""+z);
     return x+""+y+""+z;
     }
 }

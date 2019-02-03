@@ -1,3 +1,11 @@
+//Author Uday Dikshit
+//Version 2.03
+//Purpose Definition of Done:
+//a)	The class definitions are defined as per the class diagram.
+//b)	Each class definition is stored in its own .java file.
+//c)	Base class constructors are invoked using super keyword
+//d)	Function overriding is applied to define inherited function toString
+
 import java.util.*;
 class point2D
 {   Scanner input = new Scanner(System.in);
